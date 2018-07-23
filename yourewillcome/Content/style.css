@@ -1,0 +1,54 @@
+﻿.container {
+    width: 100%;
+    background-image: url('http://127.0.0.1:8080/Content/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main {
+    width: 100%;
+    background: rgba(255,255,255,0.75);
+    height: 75vh;
+    padding: 25px;
+    overflow:scroll;
+}
+
+.flex-container {
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+    .flex-container > div {
+        width: 100%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+img {
+    width:100%;
+}
+
+p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #008299;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
